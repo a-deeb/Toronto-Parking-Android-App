@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+
+        android:text="PARKING LOT :"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textColor="@color/green"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:text=" Address:"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkblue"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:paddingTop="6dip"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:text=" Longtitude and Latitude :"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkblue"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/mobile"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+
+        android:text=" Capacity:"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkblue"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/capacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#5d5d5d"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:text=" Rate:"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkblue"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#5d5d5d"
+        android:textStyle="bold"
+        />
+    <TextView
+
+        android:text=" Type:"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkblue"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/carpark_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#5d5d5d"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
