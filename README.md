@@ -1,2 +1,2 @@
 # TorontoParkingAppJSON
-![](1.JPG)(android.JPG)
+![](1.JPG) ![](android.JPG)
